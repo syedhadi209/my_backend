@@ -13,7 +13,7 @@ import tempfile
 import os
 
 
-OPENAI_API_KEY  = "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"
+OPENAI_API_KEY  = "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"
 openai.api_key = OPENAI_API_KEY
 
 chat = ChatOpenAI(openai_api_key = OPENAI_API_KEY, temperature = 0.6, model="gpt-3.5-turbo-16k")
